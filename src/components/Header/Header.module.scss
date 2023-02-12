@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 20px 40px;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .menu{
+            //display: inline-flex;
+            list-style-type: none;
+            padding-right: 20px;
+            //padding: 30px 50px 30px 30px;
+            //margin: 30px 30px;
+            border-right: 1px solid #EDEDED;
+
+            >li{
+                display: inline-block;
+                //padding: 30px 30px 30px 30px;
+                //margin: 30px 30px 30px 30px;
+                >a{
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #222;
+                    padding:  0px 40px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+           
+            padding-left: 40px 40px;
+
+            button {
+                display: flex;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                padding: 20px 20px;
+                border-radius: 10px;
+            }
+            
+            .login_button{
+                font-size: 16px;
+                color: #222;
+                padding: 20px 20px;
+            }
+
+            .sign_up_button{
+                border: 1px solid #E1E1E1;
+                margin: 30px 30px 30px 30px;
+            }
+        }
+    }
+}
